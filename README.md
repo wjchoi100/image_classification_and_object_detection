@@ -58,6 +58,7 @@ This capstone project encompasses two distinct yet interconnected tasks within t
 **Task 2 - Object Detection**:
  - Applied the pre-trained YOLOv8s model to assess its ability to accurately detect objects such as dogs and people in both images and videos
  - Trained YOLOv8m and YOLOv8l models using custom images, annotated using the RoboFlow application, to identify Norwich Terriers in both images and videos, displaying bounding boxes and confidence scores
+ - Evaluated the model's performance using mAP50 scores, a confusion matrix, and testing it on unseen images and videos.
  
 ---
 
