@@ -32,8 +32,9 @@ This capstone project encompasses two distinct yet interconnected tasks within t
 
 **Task 2 - Object Detection**
 - Images of Norwich Terriers were annotated using the RoboFlow application
-- Changed size of images to 299 x 299 pixels
-- Normalized pixel values to 0~1
+- Changed size of images to 640 x 640 pixels
+- Employed data augmentation techniques to apply various random transformations to the original images, generating new training samples.
+
   
 ## EDA (Task 1 - Image Classification)
 - The average number of images per breed is around 69 images, with the minimum of 50 and maximum of 100 images
@@ -62,6 +63,7 @@ This capstone project encompasses two distinct yet interconnected tasks within t
 
 **Task 2 - Object Detection**:
  - Applied the pre-trained YOLOv8s model to assess its ability to accurately detect objects such as dogs and people in both images and videos
+ - Employed data augmentation techniques to apply various random transformations to the original images, generating new training samples.
  - Trained YOLOv8m and YOLOv8l models using custom images, annotated using the RoboFlow application, to identify Norwich Terriers in both images and videos, displaying bounding boxes and confidence scores
  - Evaluated the model's performance using mAP50 scores, a confusion matrix, and testing it on unseen images and videos.
  
