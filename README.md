@@ -10,25 +10,30 @@ This capstone project encompasses two distinct yet interconnected tasks within t
 ---
 
 ## Datasets
-- **Task 1 - Image Classification**: Labeled images of 93 different dog breeds.
+- **Task 1 - Image Classification**: Labeled images of 93 different dog breeds
   - (https://www.kaggle.com/datasets/kabilan03/dogbreedclassification)
   - 6,405 training images
   - 766 validation images
-  - 891 test images.
-- **Task 2 - Object Detection**: Images of Norwich Terriers annotated using the *Roboflow* application.
+  - 891 test images
+- **Task 2 - Object Detection**: Images of Norwich Terriers annotated (drawing bounding boxes manually) using the *Roboflow* application.
   - (https://roboflow.com/)
-  - Originally 211 images of Norwich Terriers.
+  - Originally 211 images of Norwich Terriers
   - 507 final number of images after applying various data augmentation techniques
   - 444 training images
   - 42 validation images
   - 21 test images
 
 
-## Data Preprocessing (Task 1 - Image Classification)
+## Data Preprocessing
+**Task 1 - Image Classification**
 - Converted color of images to RGB format
 - Changed size of images to 299 x 299 pixels
 - Normalized pixel values to 0~1
 
+**Task 2 - Object Detection**
+- Images of Norwich Terriers were annotated using the RoboFlow application
+- Changed size of images to 299 x 299 pixels
+- Normalized pixel values to 0~1
   
 ## EDA (Task 1 - Image Classification)
 - The average number of images per breed is around 69 images, with the minimum of 50 and maximum of 100 images
